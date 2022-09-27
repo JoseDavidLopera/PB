@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=    , initial-scale=1.0">
+    <title>MOKEPON</title>
+    <script src="mokeponCode.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+      
+    <section id ="seleccionMascota">
+        <h1 id ="title" class="title"> MOKEPON </h1>
+        <h2 class="subtitulo">Elige tu mascota:</h2>
+        <div class="tarjetas"> 
+
+            <input type="radio" name = "mascota" id="Hipodoge"/>
+            <label class="tarjetaDeMokepon" for="Hipodoge">
+                <p>
+                    Hipodoge
+                    <img src="./mokepons_mokepon_hipodoge_attack.webp" alt="Hipodoge">
+                </p>
+            </label> 
+            <input type="radio" name = "mascota" id="Capipepo" />
+            <label class="tarjetaDeMokepon" for ="Capipepo">
+                <p>
+                    Capipepo
+                    <img src="./mokepons_mokepon_capipepo_attack.webp" alt="Capipepo">
+                </p>
+            </label> 
+            <input type="radio" name = "mascota" id="Ratigueya" />
+            <label class="tarjetaDeMokepon" for="Ratigueya">
+                <p>
+                    Ratigueya
+                    <img src="./mokepons_mokepon_ratigueya_attack.webp" alt="">
+                </p>
+            </label>
+
+        </div>
+       
+       
+
+        <button class ="botonSeleccionar" id="botonMascota">Seleccionar</button>
+    </section>
+
+    <section id="seleccionAtaque">
+        <h1 id ="title" class="title"> MOKEPON </h1>
+        <h2>Elige tu ataque:</h2>
+        <p>Tu mascota: <span id="mascotaJugador"></span> tiene <span id="vidasJugador">3</span> vidas</p>
+        <p>La mascota: <span id="mascotaEnemigo"></span>  del enemigo tiene <span id="vidasEnemigo">3</span> vidas</p>
+        <p>
+            <button id="botonFuego">Fuego 🔥</button> 
+            <button id="botonAgua">Agua 💧</button> 
+            <button id="botonTierra">Tierra 🌱</button> 
+        </p>
+    </section>
+
+    <section id="mensajes">
+        
+    </section>
+
+    <section id="reiniciar">
+        <button  id="botonReiniciar">Reiniciar</button>
+    </section>
+</body>
+</html>

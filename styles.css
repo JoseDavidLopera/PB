@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+body{
+    font-family: 'Bungee Spice', cursive;
+    background-color: #003865;
+}
+
+.title{             
+    font-size: 88px;        
+
+}
+
+.subtitulo{
+    font-size: 32px;
+}
+
+
+#seleccionMascota{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.tarjetas{
+    display: flex;
+    gap: 30px; 
+
+}
+
+.tarjetaDeMokepon{
+    width: 130px;
+    height: 200px;
+    background-color:#D4F6CC ;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+
+}
+
+.tarjetaDeMokepon img{
+    width: 100px;
+    
+}
+
+.botonSeleccionar{
+    width: 121px;
+    height: 34px;
+    background-color: #EF5B0C;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 2px solid ;
+    border-radius: 20px;
+    
+
+
+
+}
